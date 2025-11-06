@@ -30,7 +30,7 @@ pip install Pillow
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/udcode.git
+    git clone https://github.com/BroBordd/udcode.git
     cd udcode
     ```
 2.  Run the script directly using `python udcode.py`.
