@@ -1,12 +1,12 @@
-# 🚀 UD Code (Ultra-Dense Code)
+# UD Code (Ultra-Dense Code)
 
 > Convert any file into a high-capacity, camera-scannable square image and back, achieving up to 10x the data density of traditional QR codes.
 
-**UD Code** is a Python utility designed for ultra-dense data storage and transfer. It uses a custom **8-color palette (3 bits per pixel)**, combined with built-in compression and robust alignment markers, to securely and efficiently encode binary files into images.
+**UD Code** is a small dumb Python utility designed for ultra-dense data storage and transfer. It uses a custom **8-color palette (3 bits per pixel)**, combined with built-in compression and robust alignment markers, to securely and efficiently encode binary files into images.
 
 ---
 
-## ✨ Features
+## Features
 
 * **Ultra-Dense Encoding:** Achieves high efficiency by mapping 3 data bits to every logical pixel.
 * **Built-in Compression:** Uses aggressive `zlib` compression (level 9) to minimize image size and maximize data capacity.
@@ -16,7 +16,7 @@
 
 ---
 
-## 💻 Installation
+## Installation
 
 ### Prerequisites
 
@@ -37,7 +37,7 @@ pip install Pillow
 
 ---
 
-## 📖 Usage Examples
+## Usage Examples
 
 The tool uses three main commands: `encode`, `decode`, and `info`.
 
@@ -103,12 +103,6 @@ The system relies on 8 high-contrast colors to minimize errors during scanning:
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to open an issue or submit a pull request if you find bugs or want to suggest improvements.
-
----
-
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
